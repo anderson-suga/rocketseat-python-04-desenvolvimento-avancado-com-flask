@@ -27,3 +27,4 @@ __pycache__/
 .com.apple.timemachine.donotpresent
 
 instance/
+mysql/
