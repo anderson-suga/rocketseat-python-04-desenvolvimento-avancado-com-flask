@@ -19,7 +19,10 @@ def login():
     password = data.get("password")
 
     if username and password:
-        return jsonify({"message": "Autenticação realizada com sucesso!"})
+        user = User.query.filter_by(username=username).firts()
+
+        if user and user.password == password:
+            return jsonify({"message": "Autenticação realizada com sucesso!"})
 
     return jsonify({"message": "Credencial inválida."}), 400
 
