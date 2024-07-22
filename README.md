@@ -1,6 +1,12 @@
-# sample-flask-auth
+# Formação Python do Rocketseat
 
-Repositório criado para armazenar o código da API de autenticação com banco de dados.
+## Nível 02 - Desenvolvimento Avançado com Flask
+
+### Desenvolvimento de APIs com Flask
+
+Módulo focado no entendimento e aplicação de autenticação usando Flask-Login e também dedicado a apresentar conceitos e integração de banco de dados utilizando SQLAlchemy.
+
+URL: https://www.rocketseat.com.br/formacao/python
 
 ## Criar o tabela do User
 
